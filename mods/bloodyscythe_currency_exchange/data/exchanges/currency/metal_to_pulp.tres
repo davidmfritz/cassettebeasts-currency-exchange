@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://data/items/pulp.tres" type="Resource" id=1]
+[ext_resource path="res://data/items/metal.tres" type="Resource" id=2]
+[ext_resource path="res://data/exchange_scripts/SimpleExchange.gd" type="Script" id=3]
+
+[resource]
+resource_name = "pulp_to_metal"
+script = ExtResource( 3 )
+item = ExtResource( 1 )
+max_amount = 1000
+only_sold_if_unowned = false
+currency = ExtResource( 2 )
